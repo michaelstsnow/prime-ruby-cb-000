@@ -4,6 +4,8 @@ def prime?(num)
   pos_num=num.abs;
   if prime_numers.include?(pos_num)
     return true
+  elsif pos_num == 1
+    return false
   else
     i = 2;
     while i<pos_num/2
