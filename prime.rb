@@ -6,11 +6,12 @@ def prime?(num)
   else
     i = 2;
     while i<num/2
-      if num % i == 0 
+      if num % i == 0
         return true
       else
       end
       i +=1;
     end
+    return false
   end
 end
