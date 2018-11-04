@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(num)
-  prime_numers=[1,2,3,5,7]
+  prime_numers=[2,3,5,7]
   pos_num=num.abs;
   if prime_numers.include?(pos_num)
     return true
