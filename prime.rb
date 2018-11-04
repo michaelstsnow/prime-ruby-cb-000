@@ -8,7 +8,7 @@ def prime?(num)
     return false
   else
     i = 2;
-    while i<pos_num/2
+    while i<(pos_num/2)+2
       if pos_num % i == 0
         return false
       else
