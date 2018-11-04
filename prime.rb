@@ -4,5 +4,6 @@ def prime?(num)
   if prime_numers.include?(num)
     return true
   else
+    i = 2;
   end
 end
