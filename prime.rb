@@ -4,7 +4,7 @@ def prime?(num)
   pos_num=num.abs;
   if prime_numers.include?(pos_num)
     return true
-  elsif pos_num == 1
+  elsif pos_num == 1 || pos_num == 0
     return false
   else
     i = 2;
