@@ -5,5 +5,12 @@ def prime?(num)
     return true
   else
     i = 2;
+    while i<num/2
+      if num % i == 0 
+        return true
+      else
+      end
+      i +=1;
+    end
   end
 end
